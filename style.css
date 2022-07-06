@@ -1,6 +1,9 @@
 body{
     margin: 0;
-    background-image: linear-gradient(45deg, #573272, #805174);
+    background-image: linear-gradient(45deg, #805174 ,#BD8078);
+}
+section{
+    margin-bottom: 100px;
 }
 .header-part{
     background-image: url(images/fifth-thumbnail.png);
@@ -8,13 +11,13 @@ body{
     padding: 163px;
     text-align: center;
 }
-.header-part h1{
+.header-part-h1{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 80px;
     text-align: center;
 }
-.header-part p{
+.header-part-p{
     color: white;
     text-align: center;
     font-size: 25px;
@@ -26,4 +29,58 @@ body{
     padding: 10px 40px;
     border-radius: 10px;
     font-size: 20px;
+}
+/* 2nd section */
+.donate-area-h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.donate-area-p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+.flex-display{
+    display: flex;
+    color: white;
+    text-align: center;
+}
+.divided-width{
+    width: 20%;
+}
+#left-margin{
+    margin-left: 300px;
+}
+#right-margin{
+    margin-right: 300px;
+}
+#default-border{
+    background-color: #805174;
+    border: 3px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 7px;
+}
+.other-amount{
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+h4{
+    font-weight: 100;
+    text-align: center;
+    color: rgb(201, 196, 196);
+    margin-bottom: 2%;
+}
+.donate-area-button{
+    margin-left: 690px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(45deg,#432371, #805174);
+    padding: 10px 40px;
+    border-radius: 10px;
 }
