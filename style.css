@@ -193,3 +193,34 @@ ol{
 .margin{
     margin-left: 35px;
 }
+/* 5th section */
+.update-area{
+    color: white;
+    text-align: center;
+}
+.update-area h1{
+    font-size: 50px;
+}
+.update-area p{
+    font-size: 20px;
+}
+.update-area-input{
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 30px 0px;
+    width: 50%;
+    margin-left: 220px;
+    padding-left: 300px;
+}
+.update-area-input input{
+    padding: 15px 80px;
+    background-color: rgb(22, 22, 22);
+    border:2px solid #432371;
+    margin: 20px 0px;
+    border-radius: 15px;
+}.update-area-input button{
+    padding: 15px 40px;
+    background-color:#BD8078 ;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+}
