@@ -65,7 +65,7 @@ section{
     margin-top: 7px;
 }
 .other-amount{
-    margin-left: 650px;
+    margin-left: 550px;
     margin-right: 450px;
     margin-top: 100px;
     margin-bottom: 50px;;
@@ -81,7 +81,7 @@ input{
     background-color: #040305a2;
 }
 .donate-area-button{
-    margin-left: 690px;
+    margin-left: 590px;
     text-decoration: none;
     color: white;
     font-size: 20px;
