@@ -1,9 +1,9 @@
 body{
     margin: 0;
-    background-image: linear-gradient(45deg, #805174 ,#BD8078);
+    background-color: #35191A ;
 }
 section{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .header-part{
     background-image: url(images/fifth-thumbnail.png);
@@ -83,4 +83,77 @@ h4{
     background-image: linear-gradient(45deg,#432371, #805174);
     padding: 10px 40px;
     border-radius: 10px;
+}
+/* 3rd section */
+.plan-area{
+    display: flex;
+}
+.plan-area-h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.plan-area-p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.food{
+    background-image: url(images/icons/food.png);
+    background-repeat: no-repeat;
+    background-position:10% 15%;
+    background-size: 100px;
+    background-color: rgba(245, 245, 245, 0.123);
+    padding: 100px 15px 15px 30px;
+    margin-top: 75px;
+    margin-left: 25px;
+    border-radius: 35px 15px;
+}
+.one-third-width{
+    width: 33%;
+}
+.food-area-h2{
+    color: white;
+    font-size: 30px;
+}
+.food-area-p{
+    color: white;
+}
+.medicine{
+    background-image: url(images/icons/medicine.png);
+    background-repeat: no-repeat;
+    background-position:10% 15%;
+    background-size: 100px;
+    background-color: rgba(245, 245, 245, 0.123);
+    padding: 100px 15px 15px 30px;
+    margin-top: 75px;
+    margin-left: 25px;
+    border-radius: 35px 15px;
+}
+.medicine-area-h2{
+    color: white;
+    font-size: 30px;
+}
+.medicine-area-p{
+    color: white;
+}
+.shelter{
+    background-image: url(images/icons/shelter.png);
+    background-repeat: no-repeat;
+    background-position:10% 15%;
+    background-size: 100px;
+    background-color: rgba(245, 245, 245, 0.123);
+    padding: 100px 15px 15px 30px;
+    margin-top: 75px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 35px 15px;
+}
+.shelter-area-h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.shelter-area-p{
+    color: white;
 }
