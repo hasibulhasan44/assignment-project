@@ -157,3 +157,39 @@ h4{
 .shelter-area-p{
     color: white;
 }
+/* 4th section */
+.different-area{
+    display: flex;
+    background-color: #ffffff1f;
+    padding: 780px 10px 25px 25px;
+    background-image: url(images/fourth-thumbnail.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: 20px 20px;
+    border-radius: 20px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.different-area-h1{
+    color: white;
+    font-size: 50px;
+}
+.different-area-p{
+    color: white;
+    font-size: 20px;
+}
+ol{
+    color: white;
+    font-size: 20px;
+}
+.different-area-button{
+    text-decoration: none;
+    color: white;
+    background-color: #BD8078;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.margin{
+    margin-left: 35px;
+}
